@@ -7,9 +7,12 @@
 body {
   background-color: rgb(24, 24, 24);
   padding: 20px 0;
+  justify-content: center;
+  flex-direction: column;
 }
 
 header {
+  width: 70%;
   justify-content: space-between;
   border-bottom: 1px solid gold;
   padding: 0 50px 15px 50px;
@@ -37,13 +40,27 @@ header img {
 }
 
 main {
+  width: 100%;
   justify-content: center;
   border-bottom: 1px solid gold;
 }
 
-h1 {
+h1,
+h2 {
   color: white;
   font-weight: 500;
+}
+
+h2 {
+  width: fit-content;
+  margin: 0 auto 60px auto;
+  font-size: 50pt;
+}
+
+section {
+  width: 100%;
+  padding: 60px 0 100px 0;
+  border-bottom: 1px solid gold;
 }
 
 #title {
@@ -55,4 +72,21 @@ h1 {
 
 #glass {
   width: 23vw;
+}
+
+#carroussel {
+  width: fit-content;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+#popular-drinks > div > img {
+  width: 310px;
+  height: 320px;
+  object-fit: cover;
+}
+
+#popular-drinks > div > img:nth-of-type(2) {
+  width: 340px;
+  height: 340px;
 }
