@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "K2D", sans-serif;
 }
 
 body {
@@ -11,18 +12,18 @@ body {
 header {
   justify-content: space-between;
   border-bottom: 1px solid gold;
-  padding: 0 50px 20px 50px;
+  padding: 0 50px 15px 50px;
 }
 
 header img {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
 .menu a {
   color: gold;
-  font-size: 17pt;
+  font-size: 14pt;
   text-decoration: none;
 }
 
@@ -33,4 +34,25 @@ header img {
 .flex {
   display: flex;
   align-items: center;
+}
+
+main {
+  justify-content: center;
+  border-bottom: 1px solid gold;
+}
+
+h1 {
+  color: white;
+  font-weight: 500;
+}
+
+#title {
+  font-size: 200pt;
+  position: absolute;
+  top: 10vh;
+  z-index: -1;
+}
+
+#glass {
+  width: 23vw;
 }
