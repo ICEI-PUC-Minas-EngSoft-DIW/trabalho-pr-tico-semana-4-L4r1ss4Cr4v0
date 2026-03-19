@@ -7,3 +7,30 @@ body {
   background-color: rgb(24, 24, 24);
   padding: 20px 0;
 }
+
+header {
+  justify-content: space-between;
+  border-bottom: 1px solid gold;
+  padding: 0 50px 20px 50px;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.menu a {
+  color: gold;
+  font-size: 17pt;
+  text-decoration: none;
+}
+
+.menu {
+  gap: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
