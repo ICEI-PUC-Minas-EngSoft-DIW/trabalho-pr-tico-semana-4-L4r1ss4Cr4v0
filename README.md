@@ -8,17 +8,15 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
-
+- Nome: Larissa Cravo Carvalho Câmara Santos
+- Matricula: 911467
+- Proposta de projeto escolhida: Taverna - Site para catálogo de drinks
+- Breve descrição sobre seu projeto: O projeto Taverna consiste em um site temático voltado para a descoberta de drinks típicos de diferentes países ao redor do mundo. A plataforma apresenta bebidas populares e um catálogo organizado com cards que exibem imagem, descrição e país de origem de cada drink. O usuário pode explorar a diversidade cultural das bebidas, além de utilizar filtros e busca para encontrar drinks por nome ou país.
 
 ## Print do(s) wireframe(s) criado
 
-<<  COLOQUE A IMAGEM AQUI >>
-
+![Print do wireframe](public/imgs/wireframe.png)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print da home-page](public/imgs/home-page.png)
