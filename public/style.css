@@ -48,7 +48,6 @@ main {
 
 header,
 main,
-.line,
 #popular-drinks {
   border-bottom: 1px solid gold;
 }
@@ -218,16 +217,32 @@ button:hover,
 }
 
 .line {
-  width: 100%;
-  margin: 0 30px;
+  flex: 1;
+  height: 1px;
+  background-color: gold;
+  margin: 0 20px;
 }
 
 #social-medias {
   gap: 10px;
 }
 
+#first-footer-line,
 #second-footer-line {
   justify-content: space-between;
+}
+
+#second-footer-line {
+  position: relative;
+  display: flex;
+  margin-top: 25px;
+}
+
+#second-footer-line > div {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
 
 #second-footer-line h3,
