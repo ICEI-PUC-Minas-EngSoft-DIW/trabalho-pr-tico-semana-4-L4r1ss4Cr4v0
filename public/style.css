@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(24, 24, 24);
+  background-color: rgb(30, 30, 30);
   padding: 20px 0;
   justify-content: center;
   flex-direction: column;
@@ -121,12 +121,9 @@ section {
 
 .drink-card {
   position: relative;
-
-  background: rgba(32, 32, 32, 0.3); /* transparência */
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(233, 233, 233, 0.2); /* borda suave */
-
+  background: rgb(37, 37, 37);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 1px solid rgb(53, 52, 52);
   width: 340px;
   height: 300px;
   padding: 10px;
@@ -250,3 +247,9 @@ button:hover,
   width: fit-content;
   margin: 0 auto;
 }
+
+input:placeholder-shown{
+  border-color: silver;
+}
+
+
